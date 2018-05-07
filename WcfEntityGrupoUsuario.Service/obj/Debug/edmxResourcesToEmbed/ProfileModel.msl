@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ProfileModelStoreContainer" CdmEntityContainer="ProfileEntities">
+    <EntitySetMapping Name="Grupo1Set">
+      <EntityTypeMapping TypeName="ProfileModel.Grupo1">
+        <MappingFragment StoreEntitySet="Grupo">
+          <ScalarProperty Name="GrupoNome" ColumnName="GrupoNome" />
+          <ScalarProperty Name="GrupoId" ColumnName="GrupoId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GrupoUsuario">
+      <EntityTypeMapping TypeName="ProfileModel.GrupoUsuario">
+        <MappingFragment StoreEntitySet="GrupoUsuario">
+          <ScalarProperty Name="UsuarioId" ColumnName="UsuarioId" />
+          <ScalarProperty Name="GrupoId" ColumnName="GrupoId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuario1Set">
+      <EntityTypeMapping TypeName="ProfileModel.Usuario1">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="UsuarioSenha" ColumnName="UsuarioSenha" />
+          <ScalarProperty Name="UsuarioNome" ColumnName="UsuarioNome" />
+          <ScalarProperty Name="UsuarioLogin" ColumnName="UsuarioLogin" />
+          <ScalarProperty Name="UsuarioId" ColumnName="UsuarioId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

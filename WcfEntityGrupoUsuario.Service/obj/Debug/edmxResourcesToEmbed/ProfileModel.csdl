@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProfileModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="GRUPO">
+    <Key>
+      <PropertyRef Name="GRUPO_ID" />
+    </Key>
+    <Property Name="GRUPO_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GRUPO_NOME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="USUARIO" Relationship="Self.GRUPO_USUARIO" FromRole="GRUPO" ToRole="USUARIO" />
+  </EntityType>
+  <EntityType Name="USUARIO">
+    <Key>
+      <PropertyRef Name="USUARIO_ID" />
+    </Key>
+    <Property Name="USUARIO_ID" Type="Decimal" Precision="18" Scale="0" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="USUARIO_LOGIN" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="USUARIO_NOME" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="USUARIO_SENHA" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="GRUPO" Relationship="Self.GRUPO_USUARIO" FromRole="USUARIO" ToRole="GRUPO" />
+  </EntityType>
+  <Association Name="GRUPO_USUARIO">
+    <End Role="GRUPO" Type="Self.GRUPO" Multiplicity="*" />
+    <End Role="USUARIO" Type="Self.USUARIO" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="ProfileEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="GRUPO" EntityType="Self.GRUPO" />
+    <EntitySet Name="USUARIO" EntityType="Self.USUARIO" />
+    <AssociationSet Name="GRUPO_USUARIO" Association="Self.GRUPO_USUARIO">
+      <End Role="GRUPO" EntitySet="GRUPO" />
+      <End Role="USUARIO" EntitySet="USUARIO" />
+    </AssociationSet>
+    <EntitySet Name="Grupo1Set" EntityType="ProfileModel.Grupo1" />
+    <EntitySet Name="GrupoUsuario" EntityType="ProfileModel.GrupoUsuario" />
+    <EntitySet Name="Usuario1Set" EntityType="ProfileModel.Usuario1" />
+  </EntityContainer>
+  <EntityType Name="Grupo1">
+    <Key>
+      <PropertyRef Name="GrupoId" />
+    </Key>
+    <Property Name="GrupoId" Type="Decimal" Nullable="false" Precision="18" Scale="0" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GrupoNome" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="GrupoUsuario">
+    <Key>
+      <PropertyRef Name="GrupoId" />
+      <PropertyRef Name="UsuarioId" />
+    </Key>
+    <Property Name="GrupoId" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="UsuarioId" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="Usuario1">
+    <Key>
+      <PropertyRef Name="UsuarioId" />
+    </Key>
+    <Property Name="UsuarioId" Type="Decimal" Nullable="false" Precision="18" Scale="0" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UsuarioLogin" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="UsuarioNome" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="UsuarioSenha" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+</Schema>

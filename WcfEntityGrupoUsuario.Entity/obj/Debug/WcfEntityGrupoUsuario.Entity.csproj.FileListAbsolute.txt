@@ -1,0 +1,5 @@
+C:\Users\Edson Morgan\Source\Repos\WCF\WcfEntityGrupoUsuario\WcfEntityGrupoUsuario.Entity\bin\Debug\WcfEntityGrupoUsuario.Entity.dll
+C:\Users\Edson Morgan\Source\Repos\WCF\WcfEntityGrupoUsuario\WcfEntityGrupoUsuario.Entity\bin\Debug\WcfEntityGrupoUsuario.Entity.pdb
+C:\Users\Edson Morgan\Source\Repos\WCF\WcfEntityGrupoUsuario\WcfEntityGrupoUsuario.Entity\obj\Debug\WcfEntityGrupoUsuario.Entity.csprojResolveAssemblyReference.cache
+C:\Users\Edson Morgan\Source\Repos\WCF\WcfEntityGrupoUsuario\WcfEntityGrupoUsuario.Entity\obj\Debug\WcfEntityGrupoUsuario.Entity.dll
+C:\Users\Edson Morgan\Source\Repos\WCF\WcfEntityGrupoUsuario\WcfEntityGrupoUsuario.Entity\obj\Debug\WcfEntityGrupoUsuario.Entity.pdb

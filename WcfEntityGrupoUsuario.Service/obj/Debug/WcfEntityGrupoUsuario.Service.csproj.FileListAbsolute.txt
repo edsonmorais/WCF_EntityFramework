@@ -1,0 +1,13 @@
+C:\Users\Edson Morgan\Source\Repos\WCF\WcfEntityGrupoUsuario\WcfEntityGrupoUsuario.Service\bin\Debug\WcfEntityGrupoUsuario.Service.dll.config
+C:\Users\Edson Morgan\Source\Repos\WCF\WcfEntityGrupoUsuario\WcfEntityGrupoUsuario.Service\bin\Debug\WcfEntityGrupoUsuario.Service.dll
+C:\Users\Edson Morgan\Source\Repos\WCF\WcfEntityGrupoUsuario\WcfEntityGrupoUsuario.Service\bin\Debug\WcfEntityGrupoUsuario.Service.pdb
+C:\Users\Edson Morgan\Source\Repos\WCF\WcfEntityGrupoUsuario\WcfEntityGrupoUsuario.Service\obj\Debug\WcfEntityGrupoUsuario.Service.dll
+C:\Users\Edson Morgan\Source\Repos\WCF\WcfEntityGrupoUsuario\WcfEntityGrupoUsuario.Service\obj\Debug\WcfEntityGrupoUsuario.Service.pdb
+C:\Users\Edson Morgan\Source\Repos\WCF\WcfEntityGrupoUsuario\WcfEntityGrupoUsuario.Service\bin\Debug\EntityFramework.dll
+C:\Users\Edson Morgan\Source\Repos\WCF\WcfEntityGrupoUsuario\WcfEntityGrupoUsuario.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Edson Morgan\Source\Repos\WCF\WcfEntityGrupoUsuario\WcfEntityGrupoUsuario.Service\bin\Debug\EntityFramework.xml
+C:\Users\Edson Morgan\Source\Repos\WCF\WcfEntityGrupoUsuario\WcfEntityGrupoUsuario.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Edson Morgan\Source\Repos\WCF\WcfEntityGrupoUsuario\WcfEntityGrupoUsuario.Service\obj\Debug\WcfEntityGrupoUsuario.Service.csprojResolveAssemblyReference.cache
+C:\Users\Edson Morgan\Source\Repos\WCF\WcfEntityGrupoUsuario\WcfEntityGrupoUsuario.Service\bin\Debug\WcfEntityGrupoUsuario.Entity.dll
+C:\Users\Edson Morgan\Source\Repos\WCF\WcfEntityGrupoUsuario\WcfEntityGrupoUsuario.Service\bin\Debug\WcfEntityGrupoUsuario.Entity.pdb
+C:\Users\Edson Morgan\Source\Repos\WCF\WcfEntityGrupoUsuario\WcfEntityGrupoUsuario.Service\bin\Debug\FastMapper.dll
